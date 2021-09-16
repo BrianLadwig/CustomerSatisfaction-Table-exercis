@@ -1,0 +1,146 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: rgb(253, 246, 250);
+    
+}
+   
+
+
+/* ///////Text//////////////////// */
+
+caption{
+    margin: 20px 0;
+    text-align: left;
+    font-size: 25px;
+}
+
+th{
+    color: gray;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+td{
+    text-align: center;
+}
+
+/* //////////////////////////////Table//////////////////////// */
+
+
+
+.thb, td{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    border-collapse: collapse;
+}
+
+table{
+    width: 99%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-bottom: 4px solid rgb(221, 221, 221);
+}
+
+td, th{
+    padding: 1%;
+}
+
+
+
+
+p{
+    display: inline-block;
+    position: relative;
+    bottom:5px ;
+    
+}
+
+
+/* Images */
+
+.plus-symbol{
+    width: 20px;
+    opacity: 80%;
+}
+
+
+.Avatar{
+    width:40px;
+    border:1px solid darkgrey;
+    border-radius: 50%;
+}
+
+.Smily{
+    /* margin-top: 20px; */
+    margin-right: 10px;
+    width:20px;
+}
+
+.Dots{
+    width:32% ;
+}
+
+
+/* /////////////Hover and DropDown////////////// */
+
+tbody tr:hover{
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.dropdown{
+    position: absolute;
+    right: 1%;
+    z-index: 1;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding:0 ;
+    margin: 0;
+    width:120px ;
+    height: 150px;
+    border-radius:10px;
+    box-shadow: 0 0 5px gray;
+    overflow: hidden;
+    visibility: hidden;
+    z-index: 100;
+    /* display: none; */
+}
+    
+
+
+.menu{
+    position: relative;
+    top:19px;
+    display: block;
+    color: black;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(204, 201, 201);
+    width: 100%;
+    height: 50px;
+    margin: 0; 
+    margin-top: 0;
+
+   
+}
+
+
+
+.menu:hover{
+   
+    background-color: rgb(180, 179, 179);
+    visibility: visible;
+}
+
+td:hover .dropdown{
+    /* visibility: visible; */
+    /* transform: translateY(0); */
+    visibility: visible;
+    
+    
+} 
